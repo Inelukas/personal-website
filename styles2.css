@@ -1,0 +1,30 @@
+section,
+footer {
+  border: 3px solid #f9d689;
+  margin: 10px;
+}
+
+body {
+  background-color: #973131;
+  color: #e0a75e;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  float: left;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.cat img {
+  width: 120px;
+}
+
+.intro img {
+  width: 200px;
+}
+
+.aboutme {
+  margin-top: 50px;
+}
