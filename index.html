@@ -11,19 +11,19 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
   </head>
-  <div class="upper_container">
-    <header>
-      <button class="firstbutton"><a href="new_page.html">Main</a></button>
-      <button><a href="new_page.html">Latest</a></button>
-      <button><a href="new_page.html">Posts</a></button>
-      <button><a href="new_page.html">Option</a></button>
-    </header>
-    <h1>Welcome to My Page</h1>
-  </div>
-  <body>
-    <body background="background black.jpg"></body>
-    <main>
+  <body background="background black.jpg" data-js="body">
+    <div class="upper_container">
+      <header>
+        <button class="firstbutton"><a href="new_page.html">Main</a></button>
+        <button><a href="new_page.html">Latest</a></button>
+        <button><a href="new_page.html">Posts</a></button>
+        <button data-js="darkmodebutton"><a>Dark/Light</a></button>
+      </header>
+      <h1>Welcome to My Page</h1>
+    </div>
+    <main data-js="main">
       <section class="mainsection1">
         <section class="secondsec">
           <img
