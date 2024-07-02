@@ -146,23 +146,30 @@ footer h3 {
   margin-top: 10px;
 }
 
+.mainsection2 {
+  position: relative;
+}
+
 .mainsection2 div {
   margin: 10px;
   min-width: 50px;
   max-width: 100px;
   padding: 10px;
+  position: absolute;
+  right: 30px;
 }
 
 .mainsection2 button {
   margin: 10px;
   border-radius: 5px;
+  font-size: 12px;
 }
 
 .mainsection2 ul {
   margin: 10px;
+  margin-top: 300px;
   position: sticky;
   top: 90px;
-  right: 0px;
   flex: 0.2;
   max-width: 100px;
   padding: 10px;
@@ -174,6 +181,8 @@ footer h3 {
 .mainsection2 ul a {
   color: #f9d689;
   text-decoration: none;
+  float: right;
+  margin-right: -50px;
 }
 
 .mainsection2 ul a:hover {
@@ -187,4 +196,17 @@ li {
   padding: 5px;
   text-align: center;
   min-width: 200px;
+}
+
+.darkmode {
+  background-color: #f5e7b2;
+  color: black;
+  border-radius: 20px;
+  h2,
+  h3 {
+    color: black;
+  }
+  .mainsection2 a {
+    color: #973131;
+  }
 }
