@@ -1,0 +1,48 @@
+.mainsection2 {
+    position: relative;
+  }
+  
+  .mainsection2 div {
+    margin: 10px;
+    min-width: 50px;
+    max-width: 100px;
+    padding: 10px;
+    position: absolute;
+    right: 30px;
+  }
+  
+  .mainsection2 button {
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  
+  .mainsection2 ul {
+    margin: 10px;
+    margin-top: 300px;
+    position: sticky;
+    top: 90px;
+    flex: 0.2;
+    max-width: 100px;
+    padding: 10px;
+    z-index: 1;
+    height: 500px;
+    list-style: none;
+  }
+  
+  .mainsection2 ul a {
+    color: #f9d689;
+    text-decoration: none;
+    float: right;
+    margin-right: -50px;
+  }
+  
+  .mainsection2 ul a:hover {
+    color: #973131;
+    text-decoration: underline;
+    transition: color 0.5s;
+  }
+
+  .mainsection2 a {
+    color: #973131;
+  }
