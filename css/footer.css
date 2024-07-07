@@ -1,6 +1,6 @@
 footer {
     width: 100%;
-    height: 9vh;
+    height: 10vh;
     background: var(--primarycolor);
     padding-left: 10px;
     position: absolute;
@@ -14,4 +14,8 @@ footer {
 
 .contact img {
     width: 50px;
+}
+
+.contact img:hover {
+    transform: scale(1.5);
 }

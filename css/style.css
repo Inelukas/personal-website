@@ -39,12 +39,12 @@ main {
 .darkmode {
     --primarycolor: #973131;
     --secondarycolor: #973131;
-    --decocolor: #90250a;
+    --decocolor: #E0A75E;
     --textcolor: #F9D689;
     --backgroundcolor: #320303;
   }
 
-  @media (min-width: 900px) {
+  @media screen and (min-width: 900px) {
 
     main {
         align-items: flex-start;
@@ -53,7 +53,7 @@ main {
     }
   }
 
-  @media (min-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     main {
         flex-direction: row;
         flex-wrap: wrap;

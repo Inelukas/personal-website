@@ -68,5 +68,6 @@
 
     .bio {
         width: 60vw;
+        max-width: 1000px;
     }
   }

@@ -23,8 +23,13 @@
     margin-bottom: 10px;
 }
 
-.skills a {
+.codingskills img {
     margin: 10px;
+    border-radius: 10px;
+}
+
+.codingskills a img:hover {
+    box-shadow: 5px 5px 5px var(--decocolor);
 }
 
 .languageskills {
@@ -48,14 +53,16 @@
     border-radius: 20%;
 }
 
-@media (min-width: 1200px) {
-    .skills {
-        width: 40vw;
+@media screen and (min-width: 900px) {
 
+    .skills {
+        width: 70vw;
+        margin-left: 5vw;
     }
+
   }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     .skills {
         width: 35vw;
         min-height: 40vh;

@@ -5,19 +5,17 @@
 
 .sidebar div {
     max-width: 100px;
-    padding: 10px;
   }
 
 .sidebar ul {
     position: sticky;
-    right: 0px;
     top: 90px;
     list-style: none;
     margin-right: 10px;
 }
 
 .sidebar button {
-    margin: 10px 0px;
+    margin: 10px 10px;
     border-radius: 5px;
     font-size: 12px;
     background: var(--secondarycolor);
@@ -25,32 +23,39 @@
     cursor: pointer;
 }
 
-.sidebar ul li {
-    margin-top: 10px;
-    border: 2px solid var(--primarycolor);
-    border-radius: 10px;
-    padding: 5px;
-    color: var(--textcolor);
-    text-align: center;
+.sidebar button:hover {
+    transform: scale(1.3);
 }
 
-@media (min-width: 900px) {
+.sidebar ul li {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px 5px;
+    color: var(--textcolor);
+}
+
+.sidebar ul li:hover {
+    border: 2px solid var(--primarycolor);
+    background: var(--decocolor);
+    color: var(--secondarycolor);
+
+}
+
+@media screen and (min-width: 900px) {
 
     .sidebar {
         display: block;
     }
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
 
     .sidebar ul {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin-right: 80px;
     }
 
     .sidebar ul li {
-        width: 150px;
+        width: 155px;
     }
 }
