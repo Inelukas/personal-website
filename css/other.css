@@ -1,0 +1,9 @@
+.other {
+    width: 80vw;
+    padding: 10px;
+    border: 5px solid var(--primarycolor);
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px var(--decocolor);
+    background: var(--secondarycolor);
+    margin-bottom: 100px;
+}

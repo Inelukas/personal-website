@@ -1,0 +1,116 @@
+.web-experience {
+    width: 80vw;
+    padding: 10px;
+    background: var(--primarycolor);
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px var(--decocolor);
+}
+
+.web-experience div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.web-experience img {
+    width: 150px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.web-experience p {
+    text-align: justify;
+}
+
+.quiz-app-link a {
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+    color: var(--textcolor);
+    position: relative;
+    text-decoration:underline;
+}
+
+.translation {
+    width: 80vw;
+    padding: 10px;
+    background: var(--primarycolor);
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px var(--decocolor);
+}
+
+.translation div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.translation img {
+    width: 180px;
+    border-radius: 20px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 15px
+}
+
+.translation p {
+    text-align: justify;
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    padding: 10px;
+    background: var(--primarycolor);
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px var(--decocolor);
+}
+
+.radio p {
+    text-align: justify;
+}
+
+.radio h2 {
+    align-self: flex-start;
+}
+
+.radio img {
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+@media (min-width: 900px) {
+    .web-experience img,
+    .translation img {
+        width: 30%
+    }
+    
+    .quiz-app-link a {
+        font-size: 30px;
+    }
+
+    .radio img {
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .translation,
+    .web-experience,
+    .radio {
+        width: 35vw;
+        min-height: 40vh;
+        height: auto;
+        margin: 0px 1vw;
+    }
+
+    .radio img {
+        max-width: 300px;
+    }
+
+  }

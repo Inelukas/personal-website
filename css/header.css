@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background: var(--primarycolor);
+    position: fixed;
+    box-shadow: 0px 3px 6px var(--primarycolor);
+    z-index: 3;
+}
+
+.logo {
+    height: 80%;
+    background: white;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+
+.main-button {
+    margin-right: auto;
+}
+
+header button {
+    font-size: 0.7rem;
+    min-width: 50px;
+    padding: 0px 10px;
+    height: 25%;
+    margin: 0px 15px;
+    background: var(--secondarycolor);
+    color: var(--textcolor);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}

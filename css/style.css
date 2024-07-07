@@ -1,0 +1,62 @@
+@import "/css/header.css";
+@import "/css/bio.css";
+@import "/css/cards.css";
+@import "/css/skills.css";
+@import "/css/other.css";
+@import "/css/sidebar.css";
+@import "/css/footer.css";
+
+:root {
+    --primarycolor: #973131;
+    --secondarycolor: #F9D689;
+    --decocolor: #90250a;
+    --textcolor: #000000;
+    --backgroundcolor: #E0A75E;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+body {
+    background: var(--backgroundcolor);
+    color: var(--textcolor);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.darkmode {
+    --primarycolor: #973131;
+    --secondarycolor: #973131;
+    --decocolor: #90250a;
+    --textcolor: #F9D689;
+    --backgroundcolor: #320303;
+  }
+
+  @media (min-width: 900px) {
+
+    main {
+        align-items: flex-start;
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+  }
