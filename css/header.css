@@ -6,7 +6,7 @@ header {
     height: 8vh;
     background: var(--primarycolor);
     position: fixed;
-    box-shadow: 0px 3px 6px var(--primarycolor);
+    box-shadow: 0px 3px 6px var(--decocolor);
     z-index: 3;
 }
 

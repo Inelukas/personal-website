@@ -1,10 +1,15 @@
 footer {
     width: 100%;
-    height: 90px;
+    height: 310px;
     background: var(--primarycolor);
     padding-left: 10px;
     position: absolute;
     bottom: 0px;
+    box-shadow: 0px -3px 6px var(--decocolor);
+}
+
+footer h3 {
+    margin: 20px 0px;
 }
 
 .contact {
@@ -18,4 +23,60 @@ footer {
 
 .contact img:hover {
     transform: scale(1.5);
+}
+
+form {
+    display: grid;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+    position: relative;
+}
+
+form button {
+    width: 60px;
+    background: #F9D689;
+    border: none;
+    border-radius: 10px;
+    background: var(--secondarycolor);
+    color: var(--textcolor);
+}
+
+form button:hover {
+    transform: scale(1.3);
+    background-color: var(--backgroundcolor);
+    transition-duration: 1s;
+}
+
+#your-message {
+    width: 60vw;
+    border-radius: 10px;
+    text-align: center;
+    background: #F9D689;
+}
+
+.message label{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (min-width: 900px) {
+    .footer-content {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin-left: 7vw;
+    }
+
+    .message {
+        flex-grow: 2;
+    }
+
+    #your-message {
+        font-size: 18px;
+    }
 }

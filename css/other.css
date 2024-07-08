@@ -5,7 +5,7 @@
     border-radius: 20px;
     box-shadow: 4px 4px 6px var(--decocolor);
     background: var(--secondarycolor);
-    margin-bottom: 20vh;
+    margin-bottom: 50vh;
 }
 
 @media screen and (min-width: 900px) {
