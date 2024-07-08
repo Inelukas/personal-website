@@ -5,7 +5,7 @@
     border-radius: 20px;
     box-shadow: 4px 4px 6px var(--decocolor);
     background: var(--secondarycolor);
-    margin-bottom: 120px;
+    margin-bottom: 20vh;
 }
 
 @media screen and (min-width: 900px) {
@@ -13,6 +13,14 @@
     .other {
         width: 70vw;
         margin-left: 5vw;
+    }
+
+  }
+
+  @media screen and (min-width: 1200px) {
+    
+    .other {
+        margin-left: 8vw;
     }
 
   }

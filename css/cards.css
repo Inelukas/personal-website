@@ -88,14 +88,6 @@
     border-radius: 20px;
 }
 
-.web-experience img:hover,
-.translation img:hover,
-.radio img:hover {
-    transform: scale(1.8);
-    transition-duration: 1s;
-    z-index: 2;
-}
-
 @media screen and (min-width: 900px) {
 
     .translation,
@@ -116,6 +108,14 @@
 
     .radio img {
         max-width: 500px;
+    }
+
+    .web-experience img:hover,
+    .translation img:hover,
+    .radio img:hover {
+    transform: scale(1.8);
+    transition-duration: 1s;
+    z-index: 2;
     }
 }
 
